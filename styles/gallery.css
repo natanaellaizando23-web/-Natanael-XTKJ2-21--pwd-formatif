@@ -1,0 +1,58 @@
+
+/* Mengatur tampilan halaman */
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+/* Mengatur bagian galeri */
+#gallery {
+    width: 900px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Mengatur judul galeri */
+#gallery h2 {
+    text-align: center;
+    color: #333333;
+}
+
+/* Mengatur galeri menggunakan CSS Grid */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* Mengatur setiap kartu galeri */
+.gallery > .gallery-item {
+    padding: 12px;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+/* Mengatur gambar galeri */
+.gallery-item img {
+    width: 100%;
+    height: 150px;
+    display: block;
+    object-fit: cover;
+}
+
+/* Mengatur judul setiap kartu */
+.gallery-item h3 {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Mengatur footer */
+footer {
+    text-align: center;
+    padding: 20px;
+}
+
