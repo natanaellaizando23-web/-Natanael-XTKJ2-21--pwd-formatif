@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidebar Layout</title>
+
+    <style>
+        /* Mengatur ukuran semua elemen */
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Mengatur tampilan halaman */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        /* Mengatur layout utama */
+        .layout {
+            display: flex;
+            min-height: 85vh;
+        }
+
+        /* Mengatur sidebar */
+        #sidebar {
+            width: 25%;
+            background-color: #263238;
+            color: white;
+            padding: 20px;
+        }
+
+        /* Mengatur judul sidebar */
+        #sidebar h3 {
+            margin-top: 0;
+        }
+
+        /* Mengatur menu sidebar */
+        #sidebar nav {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        /* Mengatur link menu */
+        #sidebar nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        /* Efek ketika mouse diarahkan ke menu */
+        #sidebar nav a:hover {
+            background-color: #455a64;
+        }
+
+        /* Mengatur bagian konten utama */
+        .main-content {
+            width: 75%;
+            padding: 30px;
+            background-color: white;
+        }
+
+        /* Mengatur judul konten */
+        .main-content h1 {
+            color: #263238;
+        }
+
+        /* Mengatur paragraf konten */
+        .main-content p {
+            color: #555555;
+            line-height: 1.6;
+        }
+
+        /* Mengatur footer */
+        footer {
+            text-align: center;
+            padding: 14px;
+            background-color: #dddddd;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="layout">
+
+        <!-- Sidebar -->
+        <aside id="sidebar">
+            <h3>Menu</h3>
+
+            <nav>
+                <a href="../index.html">Beranda</a>
+                <a href="../pages/profile.html">Profil</a>
+                <a href="../pages/about.html">Tentang Saya</a>
+                <a href="../pages/contact.html">Kontak</a>
+            </nav>
+        </aside>
+
+        <!-- Konten utama -->
+        <main class="main-content">
+            <h1>Dashboard Saya</h1>
+
+            <p>
+                Selamat datang di halaman sidebar saya.
+                Halaman ini dibuat menggunakan CSS Flexbox
+                untuk menyusun sidebar dan konten utama.
+            </p>
+
+            <p>
+                Sidebar berada di sebelah kiri dengan lebar
+                25%, sedangkan bagian konten utama berada
+                di sebelah kanan dengan lebar 75%.
+            </p>
+
+            <p>
+                CSS digunakan untuk mengatur warna,
+                ukuran, jarak, dan tampilan setiap bagian
+                halaman agar terlihat lebih rapi.
+            </p>
+        </main>
+
+    </div>
+
+    <footer>
+        <p>© 2026 Natanael Laizando</p>
+        <a href="../index.html">Kembali ke Beranda</a>
+    </footer>
+
+</body>
+</html>
