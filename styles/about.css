@@ -1,0 +1,62 @@
+/* =========================
+   PENGATURAN FONT
+========================= */
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* =========================
+   PENGATURAN BACKGROUND
+========================= */
+
+#about {
+    background-image: url("../assets/images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px 20px;
+    min-height: 400px;
+}
+
+/* =========================
+   PENGATURAN KOTAK ABOUT
+========================= */
+
+.about-box {
+    width: 620px;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 12px;
+}
+
+/* =========================
+   PENGATURAN TEKS
+========================= */
+
+.about-box h1 {
+    font-family: 'Poppins', sans-serif;
+    color: #222222;
+    text-align: center;
+}
+
+.about-box p {
+    font-size: 16px;
+    text-align: left;
+    line-height: 1.6;
+    color: #333333;
+}
+
+.about-box .closing {
+    text-align: right;
+    font-style: italic;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+}
