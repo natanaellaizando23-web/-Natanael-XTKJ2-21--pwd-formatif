@@ -1,0 +1,64 @@
+
+/* Mengatur seluruh halaman */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333333;
+}
+
+/* Mengatur header */
+header {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #263238;
+    color: white;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* Mengatur bagian utama */
+main {
+    width: 900px;
+    max-width: 90%;
+    margin: 30px auto;
+}
+
+/* Mengatur judul kedua section */
+#components h2,
+#pages h2 {
+    color: #263238;
+    font-size: 22px;
+}
+
+/* Mengatur daftar */
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+/* Mengatur link */
+main a {
+    color: #1976d2;
+    text-decoration: none;
+    line-height: 2;
+}
+
+/* Efek ketika mouse diarahkan ke link */
+main a:hover {
+    color: #e65100;
+    text-decoration: underline;
+}
+
+/* Mengatur footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #263238;
+    color: white;
+    font-size: 14px;
+}
