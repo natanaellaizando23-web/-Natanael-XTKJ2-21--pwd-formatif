@@ -1,0 +1,83 @@
+
+/* Mengatur tampilan halaman */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Mengatur bagian hero */
+#hero {
+    height: 400px;
+    background-color: #263238;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Mengatur kotak isi hero */
+.hero-content {
+    width: 640px;
+    max-width: 100%;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+}
+
+/* Animasi judul dan paragraf */
+.hero-content h1,
+.hero-content p {
+    animation: slide-up 1.2s ease-out;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: backwards;
+}
+
+/* Mengatur animasi judul */
+.hero-content h1 {
+    color: #263238;
+    animation-delay: 0.3s;
+}
+
+/* Mengatur animasi paragraf */
+.hero-content p {
+    color: #555555;
+    line-height: 1.6;
+    animation-delay: 0.6s;
+}
+
+/* Membuat animasi slide-up */
+@keyframes slide-up {
+    0% {
+        transform: translateY(60px);
+        opacity: 0;
+    }
+
+    25% {
+        transform: translateY(40px);
+        opacity: 0.25;
+    }
+
+    50% {
+        transform: translateY(20px);
+        opacity: 0.5;
+    }
+
+    75% {
+        transform: translateY(8px);
+        opacity: 0.8;
+    }
+
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Mengatur footer */
+footer {
+    text-align: center;
+    padding: 20px;
+}
