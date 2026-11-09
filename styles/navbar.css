@@ -1,0 +1,62 @@
+
+/* Mengatur tampilan halaman */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Mengatur header */
+#main-header {
+    background-color: #263238;
+}
+
+/* Mengatur navbar menggunakan Flexbox */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+/* Mengatur logo */
+.logo {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* Mengatur daftar menu */
+.nav-menu {
+    display: flex;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+}
+
+/* Menghilangkan bullet pada daftar */
+.nav-menu > li {
+    list-style: none;
+}
+
+/* Mengatur link menu */
+.nav-menu a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Efek hover menu */
+.nav-menu a:hover {
+    color: #ffca28;
+}
+
+/* Mengatur konten utama */
+main {
+    padding: 30px;
+}
+
+/* Mengatur footer */
+footer {
+    text-align: center;
+    padding: 20px;
+}
